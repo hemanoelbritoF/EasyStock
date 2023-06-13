@@ -5,12 +5,12 @@ import { Outlet, Router } from "react-router-dom";
 
 function App() {
     return (
-        <Router basename ="/EasyStock">
+        
         <AuthProvider>
             <GlobalStyled />
             <Outlet />
         </AuthProvider>
-        </Router>
+       
     );
 }
 
