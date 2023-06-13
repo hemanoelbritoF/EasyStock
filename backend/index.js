@@ -27,7 +27,7 @@ app.use("/produto", productRoute); // Rota padrão de produto
 app.use("/auth", authRoute); // Rota de autenticação
 app.use("/cliente", customerRoute); // Rota padrão do cliente
 app.use("/pedido", orderRoute); // Rota padrão do pedido
-app.use("/pagamento", paymentRoute); // Rota padrão de pagamento 
+app.use("/pagamento", paymentRoute); // Rota padrão de pagament
 
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
