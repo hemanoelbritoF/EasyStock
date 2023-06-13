@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://easystock-api.onrender.com";
+const baseURL = "https://two0231easystock.onrender.com";
 
 export async function login(data) {
     const response = await axios.post(`${baseURL}/auth/admin`, data);

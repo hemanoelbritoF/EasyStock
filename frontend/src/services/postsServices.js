@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 const { token } = Cookies.get();
 
 export const api = axios.create({
-    baseURL: "https://easystock-api.onrender.com"
+    baseURL: "https://two0231easystock.onrender.com"
 });
 
 if (token) {
